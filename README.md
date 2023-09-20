@@ -38,7 +38,7 @@
 
 {
 "action" : "set",
-"project" : "6310301004",
+"project" : "6310301012",
 "model" : "model-01",
 "serial" : "sn-01",
 "name" : "FAULT",
@@ -47,7 +47,7 @@
 
 {
 "action" : "set",
-"project" : "6310301004",
+"project" : "6310301012",
 "model" : "model-01",
 "serial" : "sn-01",
 "name" : "FAULT",
