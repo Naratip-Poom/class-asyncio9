@@ -107,36 +107,32 @@ if sys.platform.lower() == "win32" or os.name.lower() == "nt":
 # Run your async application as usual
 asyncio.run(main())
 
-# <aiomqtt.client.Client object at 0x000002DAB2BA2560>
-# Wed Aug 30 14:34:18 2023 - [SN-001] Waiting to start... 6.29 seconds.
-# Wed Aug 30 14:34:25 2023 - [SN-001] Waiting to start... 6.86 seconds.
-# Wed Aug 30 14:34:32 2023 - [SN-001] Waiting to start... 1.47 seconds.
-# Wed Aug 30 14:34:33 2023 - [SN-001] Waiting to start... 4.42 seconds.
-# Wed Aug 30 14:34:37 2023 - [SN-001] Waiting to start... 9.52 seconds.
-# Wed Aug 30 14:34:47 2023 - [SN-001] Waiting to start... 1.05 seconds.
-# Wed Aug 30 14:34:48 2023 - [SN-001] Waiting to start... 9.8 seconds.
-# Wed Aug 30 14:34:58 2023 - [SN-001] Waiting to start... 0.52 seconds.
-# Wed Aug 30 14:34:58 2023 - [SN-001] Waiting to start... 8.19 seconds.
-# Wed Aug 30 14:35:07 2023 - [SN-001] Waiting to start... 0.79 seconds.
-# Wed Aug 30 14:35:07 2023 - [SN-001] Waiting to start... 3.8 seconds.
-# Wed Aug 30 14:35:11 2023 - [SN-001] Waiting to start... 3.5 seconds.
-# Wed Aug 30 14:35:15 2023 - [SN-001] Waiting to start... 1.64 seconds.
-# Wed Aug 30 14:35:16 2023 - [SN-001] Waiting to start... 4.99 seconds.
-# Wed Aug 30 14:35:19 2023 - MQTT - [SN-001]:POWER => ON
-# Wed Aug 30 14:35:21 2023 - [SN-001] STATUS:START
-# Wed Aug 30 14:35:23 2023 - PUBLISH - [SN-001] - STATUS > START
-# Wed Aug 30 14:35:23 2023 - [SN-001] LID:OPEN
-# Wed Aug 30 14:35:24 2023 - MQTT - [SN-001]:STATUS => START
-# Wed Aug 30 14:35:25 2023 - PUBLISH - [SN-001] - LID > OPEN
-# Wed Aug 30 14:35:25 2023 - [SN-001] LID:CLOSE
-# Wed Aug 30 14:35:26 2023 - MQTT - [SN-001]:LID => OPEN
-# Wed Aug 30 14:35:27 2023 - PUBLISH - [SN-001] - LID > CLOSE
-# Wed Aug 30 14:35:27 2023 - [SN-001] temperature:32.61
-# Wed Aug 30 14:35:28 2023 - MQTT - [SN-001]:LID => CLOSE
-# Wed Aug 30 14:35:29 2023 - PUBLISH - [SN-001] - temperature > 32.61
-# Wed Aug 30 14:35:29 2023 - [SN-001] STATUS:FINISHED
-# Wed Aug 30 14:35:31 2023 - PUBLISH - [SN-001] - STATUS > FINISHED
-# Wed Aug 30 14:35:31 2023 - [SN-001] filter:clogged
-# Wed Aug 30 14:35:34 2023 - PUBLISH - [SN-001] - filter > clogged
-# Wed Aug 30 14:35:34 2023 - [SN-001] SPEED:100
-# Wed Aug 30 14:35:36 2023 - PUBLISH - [SN-001] - SPEED > 100
+
+# Wed Aug 30 14:29:55 2023 - [SN-001] Waiting to start... 3.81 seconds.
+# Wed Aug 30 14:29:59 2023 - [SN-001] Waiting to start... 5.84 seconds.
+# Wed Aug 30 14:30:05 2023 - [SN-001] Waiting to start... 9.0 seconds.
+# Wed Aug 30 14:30:07 2023 - MQTT - [SN-001]:POWER => ON
+# Wed Aug 30 14:30:14 2023 - [SN-001] STATUS:START
+# Wed Aug 30 14:30:16 2023 - PUBLISH - [SN-001] - STATUS > START
+# Wed Aug 30 14:30:16 2023 - [SN-001] LID:OPEN
+# Wed Aug 30 14:30:17 2023 - MQTT - [SN-001]:STATUS => START
+# Wed Aug 30 14:30:18 2023 - PUBLISH - [SN-001] - LID > OPEN
+# Wed Aug 30 14:30:18 2023 - [SN-001] LID:CLOSE
+# Wed Aug 30 14:30:18 2023 - MQTT - [SN-001]:LID => OPEN
+# Wed Aug 30 14:30:20 2023 - PUBLISH - [SN-001] - LID > CLOSE
+# Wed Aug 30 14:30:20 2023 - [SN-001] pressure:2302.94
+# Wed Aug 30 14:30:20 2023 - MQTT - [SN-001]:LID => CLOSE
+# Wed Aug 30 14:30:22 2023 - PUBLISH - [SN-001] - pressure > 2302.94
+# Wed Aug 30 14:30:22 2023 - [SN-001] STATUS:FINISHED
+# Wed Aug 30 14:30:24 2023 - PUBLISH - [SN-001] - STATUS > FINISHED
+# Wed Aug 30 14:30:24 2023 - [SN-001] noise:quiet
+# Wed Aug 30 14:30:26 2023 - PUBLISH - [SN-001] - noise > quiet
+# Wed Aug 30 14:30:26 2023 - [SN-001] SPEED:100
+# Wed Aug 30 14:30:28 2023 - PUBLISH - [SN-001] - SPEED > 100
+# Wed Aug 30 14:30:28 2023 - [SN-001] Waiting to start... 2.45 seconds.
+# Wed Aug 30 14:30:31 2023 - [SN-001] Waiting to start... 9.94 seconds.
+# Wed Aug 30 14:30:41 2023 - [SN-001] Waiting to start... 0.41 seconds.
+# Wed Aug 30 14:30:41 2023 - [SN-001] Waiting to start... 7.6 seconds.
+# Wed Aug 30 14:30:49 2023 - [SN-001] Waiting to start... 0.84 seconds.
+# Wed Aug 30 14:30:49 2023 - [SN-001] Waiting to start... 2.19 seconds.
+# Wed Aug 30 14:30:52 2023 - [SN-001] Waiting to start... 7.64 seconds.
